@@ -169,10 +169,14 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    background-color: rgba(43, 48, 59, 0.5);
+    color: #f53c3c;
 }
 
+/* #cpu { */
+/*     background-color: #2ecc71; */
+/*     color: #000000; */
+/* } */
 #memory {
     background-color: #9b59b6;
 }
@@ -240,7 +244,8 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: rgba(43, 48, 59, 0.5);
+    /*background-color: #2b303b; */
 }
 
 #tray > .passive {
